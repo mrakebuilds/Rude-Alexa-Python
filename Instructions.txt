@@ -1,0 +1,37 @@
+First Insert The Entire Folder Into Your Python Folder Via These Steps:
+1. Open Start Menu
+2. Type Run (or search for the program called run and open it)
+3. In the Run search bar, type in: %appdata%
+4. It will open a folder in AppData called Roaming
+5. Go back once and you will see the options: Local, Locallow, and Roaming
+6. Open the Local Folder
+7. Scroll down and open the Programs folder
+8. Open the Python folder and select the python folder version you want to use. For example 'Python 36' (I believe it works best on Python 3 and up)
+9. Open the Scripts folder
+10. Copy and paste (or simply move) the entire 'Rude-Alexa-Python-master' into the scripts folder
+11. When you open VS Code, choose the 'Open Folder' option
+12. Copy the folder location where you pasted the folder (where it says "AppData>Local>Programs... etc)
+13. Paste it in VS Code's location bar and select and open the 'Rude-Alexa-Python-master' folder
+14. Click rudealexa.py to your left to view and run the code
+
+Install These Before Running Code:
+pip install SpeechRecognition
+pip install pyaudio
+pip install gtts
+pip install playsound
+
+
+
+if 'pip install pyaudio' does not work try:
+pip install pipwin
+pipwin install pyaudio
+
+
+
+If you get an error message saying "'pip' is not recognized as an internal or external command..." or "the term 'pip' is not recognized as the name of a cmdlet..." install like this:
+py -m pip install SpeechRecognition
+py -m pip install pipwin
+py -m pipwin install pyaudio
+py -m pip install gtts
+py -m pip install playsound
+
